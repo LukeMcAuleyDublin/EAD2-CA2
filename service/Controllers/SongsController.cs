@@ -10,7 +10,7 @@ using service.Data;
 
 namespace service.Controllers
 {
-    /*[Route("api/[controller]")]*/
+    [Route("api/[controller]")]
     [ApiController]
     public class SongsController : ControllerBase
     {
@@ -23,7 +23,7 @@ namespace service.Controllers
 
         // GET: api/Songs
         [HttpGet]
-        [Route("/songs")]
+        /*[Route("/songs")]*/
         public async Task<ActionResult<IEnumerable<Song>>> GetSong()
         {
             return await _context.Songs.ToListAsync();

@@ -30,12 +30,16 @@ namespace service
 		{
 
 			services.AddControllers();
-			services.AddSwaggerGen(c =>
+			services.AddSwaggerGen(config =>
 			{
-				c.SwaggerDoc("v1", new OpenApiInfo { Title = "service", Version = "v1" });
+				config.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+				{
+					Title = "MusicLibrary",
+					Version = "v1"
+				});
 			});
 
-		    services.AddDbContext<serviceContext>(options =>
+			services.AddDbContext<serviceContext>(options =>
 		            options.UseSqlServer(Configuration.GetConnectionString("serviceContext")));
 		}
 
