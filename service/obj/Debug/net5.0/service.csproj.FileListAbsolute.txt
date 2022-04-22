@@ -132,3 +132,6 @@ C:\Users\david\Downloads\EAD2-CA2\EAD2-CA2\service\obj\Debug\net5.0\service.dll
 C:\Users\david\Downloads\EAD2-CA2\EAD2-CA2\service\obj\Debug\net5.0\ref\service.dll
 C:\Users\david\Downloads\EAD2-CA2\EAD2-CA2\service\obj\Debug\net5.0\service.pdb
 C:\Users\david\Downloads\EAD2-CA2\EAD2-CA2\service\obj\Debug\net5.0\service.genruntimeconfig.cache
+C:\Users\lukem\source\repos\EAD2-CA2\service\obj\Debug\net5.0\service.dll
+C:\Users\lukem\source\repos\EAD2-CA2\service\obj\Debug\net5.0\ref\service.dll
+C:\Users\lukem\source\repos\EAD2-CA2\service\obj\Debug\net5.0\service.pdb
