@@ -1,4 +1,4 @@
-package com.example.ca2service;
+package org.gc.helloworldvolleyclient;
 
 import org.junit.Test;
 

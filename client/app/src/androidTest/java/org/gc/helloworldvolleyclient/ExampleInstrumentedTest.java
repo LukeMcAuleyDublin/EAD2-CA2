@@ -1,4 +1,4 @@
-package com.example.ca2service;
+package org.gc.helloworldvolleyclient;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.ca2service", appContext.getPackageName());
+        assertEquals("org.gc.helloworldvolleyclient", appContext.getPackageName());
     }
 }
