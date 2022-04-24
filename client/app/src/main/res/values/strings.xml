@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">Hello World Volley Client</string>
-    <string name="call_button_text">Call Service</string>
+    <string name="app_name">Artist and Song Directory</string>
+    <string name="get_artists_text">Get Artists</string>
+    <string name="get_songs_text">Get Songs</string>
 </resources>

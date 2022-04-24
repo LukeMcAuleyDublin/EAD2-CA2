@@ -10,5 +10,11 @@ public class Song
 
     private int ArtistID;
 
-    Artist Artist;
+
+    public String ToString()
+    {
+        String toReturn = "ID: " + Integer.toString(ID) + "\nArtist: " + Integer.toString(ArtistID)
+                +"\nLength: " + Length + "\nGenre: " + Genre;
+        return toReturn;
+    }
 }

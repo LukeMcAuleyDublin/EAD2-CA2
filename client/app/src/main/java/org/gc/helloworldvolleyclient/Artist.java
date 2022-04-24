@@ -7,8 +7,7 @@ public class Artist
     private String Bio;
     private int YearFormed;
 
-    Song[] Songs;
-
+    @Override
     public String toString()
     {
         return Name;
