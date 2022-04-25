@@ -88,9 +88,10 @@ public class MainActivity extends AppCompatActivity {
                             {
                                 Gson gson = new Gson();
                                 Artist[] artists = gson.fromJson(response, Artist[].class);
+                                outputTextView.setText("");
                                 for(Artist a: artists)
                                 {
-                                    outputTextView.setText(a.toString());
+                                    outputTextView.append(a.toString());
                                     Log.d(TAG, "Data: " + a.toString());
 
                                 }
@@ -137,8 +138,9 @@ public class MainActivity extends AppCompatActivity {
                             public void onResponse(String response) {
                                 Gson gson = new Gson();
                                 Song[] songs = gson.fromJson(response, Song[].class);
+                                outputTextView.setText("");
                                 for (Song s : songs) {
-                                    outputTextView.setText(s.toString());
+                                    outputTextView.append("\n" + s.toString());
                                     Log.d(TAG, "Data: " + s.toString());
 
                                 }
@@ -154,6 +156,7 @@ public class MainActivity extends AppCompatActivity {
                             }
                         });
                 queue.add(strObjRequest);
+
             }
             catch (Exception e2)
             {

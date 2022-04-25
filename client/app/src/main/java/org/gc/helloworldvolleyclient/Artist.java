@@ -1,15 +1,19 @@
 package org.gc.helloworldvolleyclient;
 
-public class Artist
-{
-    private int ID;
-    private String Name;
-    private String Bio;
-    private int YearFormed;
+import com.google.gson.annotations.SerializedName;
+
+public class Artist {
+    private int id;
+
+    private String name;
+
+    private String bio;
+
+    private int yearFormed;
 
     @Override
     public String toString()
     {
-        return Name;
+        return "\nName: " + name + "\nBio: " + bio + "\nYear Formed: " + yearFormed + "\n";
     }
 }

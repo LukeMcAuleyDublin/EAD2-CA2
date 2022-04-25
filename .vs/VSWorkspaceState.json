@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\database",
-    "\\database\\EAD2-CA2-database",
+    "\\service",
     "\\service\\Controllers"
   ],
-  "SelectedNode": "\\database\\EAD2-CA2-database\\Program.cs",
+  "SelectedNode": "\\service\\Controllers\\SongsController.cs",
   "PreviewInSolutionExplorer": false
 }

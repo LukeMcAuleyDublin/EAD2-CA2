@@ -1,20 +1,19 @@
 package org.gc.helloworldvolleyclient;
 
-public class Song
-{
-    private int ID;
-    private String Name;
-    private String Length;
-    private String Genre;
-    private String Lyrics;
+public class Song {
+    private int id;
+    private String name;
+    private String length;
+    private String genre;
+    private String lyrics;
 
-    private int ArtistID;
+    private int artistId;
 
-
-    public String ToString()
+    @Override
+    public String toString()
     {
-        String toReturn = "ID: " + Integer.toString(ID) + "\nArtist: " + Integer.toString(ArtistID)
-                +"\nLength: " + Length + "\nGenre: " + Genre;
+        String toReturn = "ID: " + Integer.toString(id) + "\nName: " + name + "\nArtist: " + Integer.toString(artistId)
+                +"\nLength: " + length + "\nGenre: " + genre + "\n";
         return toReturn;
     }
 }
